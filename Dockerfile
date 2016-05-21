@@ -1,5 +1,5 @@
 FROM java:8
-COPY . /usr/src/hello
-WORKDIR /usr/src/hello
+COPY . /usr/src/java/hello
+WORKDIR /usr/src/java/hello
 RUN javac Hello.java
 CMD ["java","Hello"]
