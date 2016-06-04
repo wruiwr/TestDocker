@@ -1,4 +1,4 @@
-package hib.dat100.testassignment;
+//package hib.dat100.testassignment;
 
 public class A {
 
