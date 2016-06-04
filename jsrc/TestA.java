@@ -1,4 +1,4 @@
-package hib.dat100.testassignment;
+//package hib.dat100.testassignment;
 
 import static org.junit.Assert.*;
 
