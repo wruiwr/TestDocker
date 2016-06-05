@@ -4,4 +4,4 @@ WORKDIR /usr/src/test
 #RUN javac jsrc/Hello.java
 #CMD ["java","Hello"]
 RUN javac -cp .:junit/junit-4.12.jar:junit/hamcrest-core.jar jsrc/*.java
-CMD ["java","TestA"]
+CMD ["java","-cp", ".:junit/junit-4.12.jar:junit/hamcrest-core.jar:jsrc", "TestRunner"]
