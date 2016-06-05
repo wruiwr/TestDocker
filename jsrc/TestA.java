@@ -9,7 +9,7 @@ public class TestA {
 	@Test
 	public void testinc() {
 		A a = new A();
-		assertEquals(5,a.inc(4));
+		assertEquals(4,a.inc(4));
 	}
 	
 	@Test
